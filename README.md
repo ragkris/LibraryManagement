@@ -14,17 +14,6 @@ The application provides functionalities to:
 - Issue and return books
 - Maintain availability status of books
 
-In addition to the core functionalities, the system also includes optional advanced features such as:
-- Multi-branch library support
-- Transfer of books between library branches
-- Reservation system for unavailable books
-- Notification mechanism for reserved books using Observer Pattern
-- Book recommendation system based on patron borrowing history
-
-The system is designed following SOLID principles to ensure maintainability and scalability. Design patterns such as Strategy, Observer, and Factory have been implemented to enhance flexibility and promote loosely coupled architecture.
-
-A logging framework (SLF4J with Logback) is integrated to record important system events and errors for better monitoring and debugging.
-
 
 ## Class Diagram
 ![class diagram](images\class-diagram.png)
